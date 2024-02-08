@@ -1,0 +1,9 @@
+{
+  "item.incompetentoverhaul.ruby": "Ruby",
+  "item.incompetentoverhaul.raw_ruby": "Raw Ruby",
+
+  "block.incompetentoverhaul.ruby_block": "Block of Ruby",
+  "block.incompetentoverhaul.raw_ruby_block": "Block of Raw Ruby",
+
+  "itemgroup.ruby": "Incompetent Overhaul"
+}
