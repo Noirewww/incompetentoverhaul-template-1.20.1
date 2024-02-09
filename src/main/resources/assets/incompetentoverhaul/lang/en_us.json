@@ -1,9 +1,15 @@
 {
   "item.incompetentoverhaul.ruby": "Ruby",
   "item.incompetentoverhaul.raw_ruby": "Raw Ruby",
+  "item.incompetentoverhaul.metal_detector": "Metal Detector",
 
   "block.incompetentoverhaul.ruby_block": "Block of Ruby",
   "block.incompetentoverhaul.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.incompetentoverhaul.ruby_ore": "Ruby Ore",
+  "block.incompetentoverhaul.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.incompetentoverhaul.nether_ruby_ore": "Nether Ruby Ore",
+  "block.incompetentoverhaul.end_stone_ruby_ore": "End Stone Ruby Ore",
 
   "itemgroup.ruby": "Incompetent Overhaul"
 }

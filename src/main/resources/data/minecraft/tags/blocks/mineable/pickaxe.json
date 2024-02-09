@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "incompetentoverhaul:ruby_block",
+    "incompetentoverhaul:raw_ruby_block",
+    "incompetentoverhaul:ruby_ore",
+    "incompetentoverhaul:deepslate_ruby_ore",
+    "incompetentoverhaul:nether_ruby_ore",
+    "incompetentoverhaul:end_stone_ruby_ore"
+
+  ]
+}
