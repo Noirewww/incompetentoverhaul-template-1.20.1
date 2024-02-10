@@ -28,6 +28,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
+
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_HOE);
                     }).build());
 
     public static void registerItemsGroups() {
