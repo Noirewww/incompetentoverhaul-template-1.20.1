@@ -5,6 +5,9 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import incom.overhaul.IncompetentOverhaul;
 import incom.overhaul.item.custom.MetalDetectorItem;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -28,7 +31,10 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, 2, 0f, new FabricItemSettings()));
 
     public static final Item SCYTHE = registerItem("scythe",
-            new IncompetentWeaponScytheClass(ToolMaterials.DIAMOND, 8, -3.5f, new FabricItemSettings()));
+            new IncompetentWeaponScytheClass(ToolMaterials.DIAMOND, 8, -3.5f,
+                    new FabricItemSettings(), 0.8,
+                    new StatusEffectInstance(StatusEffects.INVISIBILITY, 100),
+                    1));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 

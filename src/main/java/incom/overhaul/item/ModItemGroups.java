@@ -40,10 +40,10 @@ public class ModItemGroups {
         IncompetentOverhaul.LOGGER.info("Registering Item Groups for " + IncompetentOverhaul.MOD_ID);
     }
 
-    // public static final ItemGroup MAIN_GROUP = Registry.register(Registries.ITEM_GROUP,
-    //         new Identifier(IncompetentOverhaul.MOD_ID, "arbitrarium"),
-    //         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.arbitrarium"))
-    //                 .icon(() -> new ItemStack(ModItems.SCYTHE)).entries((displayContext, entries) -> {
-    //                 entries.add(ModItems.SCYTHE);
-    //                 }).build());
+    public static final ItemGroup MAIN_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(IncompetentOverhaul.MOD_ID, "arbitrarium"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.arbitrarium"))
+                    .icon(() -> new ItemStack(ModItems.SCYTHE)).entries((displayContext, entries) -> {
+                    entries.add(ModItems.SCYTHE);
+                    }).build());
 }
