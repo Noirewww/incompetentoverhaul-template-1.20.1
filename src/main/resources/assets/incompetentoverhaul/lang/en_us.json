@@ -17,5 +17,8 @@
   "block.incompetentoverhaul.nether_ruby_ore": "Nether Ruby Ore",
   "block.incompetentoverhaul.end_stone_ruby_ore": "End Stone Ruby Ore",
 
-  "itemgroup.ruby": "Incompetent Overhaul"
+  "item.incompetentoverhaul.scythe": "Scythe",
+
+  "itemgroup.ruby": "Ruby",
+  "itemgroup.arbitrarium": "Incompetent Overhaul"
 }
