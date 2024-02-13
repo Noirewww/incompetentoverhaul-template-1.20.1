@@ -30,10 +30,15 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, 2, 0f, new FabricItemSettings()));
 
     public static final Item SCYTHE = registerItem("scythe",
-            new IncompetentWeaponScytheClass(ToolMaterials.DIAMOND, 8, -3.5f,
+            new IncompetentScytheClass(ToolMaterials.DIAMOND, 7, -3.5f,
                     new FabricItemSettings(), 0.8,
                     new StatusEffectInstance(StatusEffects.INVISIBILITY, 100),
-                    1));
+                    2, 80));
+    public static final Item BLAZE_SWORD = registerItem("blaze_sword",
+            new BlazeSword(ToolMaterials.DIAMOND, 1, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item BOW = registerItem("bow",
+            new IncompetentBowClass(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 
