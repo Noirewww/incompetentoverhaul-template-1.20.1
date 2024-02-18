@@ -30,10 +30,13 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, 2, 0f, new FabricItemSettings()));
 
     public static final Item SCYTHE = registerItem("scythe",
-            new IncompetentScytheClass(ToolMaterials.DIAMOND, 7, -3.5f,
+            new Scythe(ToolMaterials.DIAMOND, 7, -3.5f,
                     new FabricItemSettings(), 0.8,
                     new StatusEffectInstance(StatusEffects.INVISIBILITY, 100),
-                    2, 80));
+                    2, 80, 0));
+    public static final Item HARVESTER = registerItem("harvester",
+            new Harvester(ToolMaterials.DIAMOND, 5, -3.1f,
+                    new FabricItemSettings()));
     public static final Item BLAZE_SWORD = registerItem("blaze_sword",
             new BlazeSword(ToolMaterials.DIAMOND, 1, -2.4f,
                     new FabricItemSettings()));
@@ -44,7 +47,7 @@ public class ModItems {
 
     }
 
-    private  static Item registerItem(String name, Item item) {
+    private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(IncompetentOverhaul.MOD_ID, name), item);
     }
 

@@ -3,6 +3,7 @@ package incom.overhaul;
 import incom.overhaul.block.ModBlocks;
 import incom.overhaul.item.ModItemGroups;
 import incom.overhaul.item.ModItems;
+import incom.overhaul.item.ModPotions;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class IncompetentOverhaul implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModPotions.registerPotionsRecipes();
 	}
 }

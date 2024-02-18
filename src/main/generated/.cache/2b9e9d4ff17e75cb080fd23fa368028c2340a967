@@ -1,0 +1,7 @@
+// 1.20.1	2024-02-13T10:28:27.847047	IncompetentOverhaul/Block Loot Tables
+db08010ad3e857737adba7aa8ca88ded6cc56761 data/incompetentoverhaul/loot_tables/blocks/ruby_ore.json
+2132fd89ac3a65beddd2ecfed8c46dc5cd976c8e data/incompetentoverhaul/loot_tables/blocks/raw_ruby_block.json
+b822bfe356dc7c7d730b1097bef1d4c08a602314 data/incompetentoverhaul/loot_tables/blocks/nether_ruby_ore.json
+76a7747827793c75b20f998ff74d1bb43354ee9f data/incompetentoverhaul/loot_tables/blocks/ruby_block.json
+48339dde9851ec2755ad8f3fef6a86090304d2f1 data/incompetentoverhaul/loot_tables/blocks/end_stone_ruby_ore.json
+fb9ee04764c249dd7f3c4800ac1e0279b807f02d data/incompetentoverhaul/loot_tables/blocks/deepslate_ruby_ore.json

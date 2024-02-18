@@ -19,6 +19,12 @@
 
   "item.incompetentoverhaul.scythe": "Scythe",
   "item.incompetentoverhaul.blaze_sword": "Blaze Sword",
+  "item.incompetentoverhaul.harvester": "Harvester",
+
+  "effect.incompetentoverhaul.heretic": "Heretic",
+  "item.minecraft.potion.effect.heretic": "Potion of Heretic",
+  "item.minecraft.splash_potion.effect.heretic": "Splash Potion of Heretic",
+  "item.minecraft.lingering_potion.effect.heretic": "Lingering Potion of Heretic",
 
   "itemgroup.ruby": "Ruby",
   "itemgroup.arbitrarium": "Incompetent Overhaul"
