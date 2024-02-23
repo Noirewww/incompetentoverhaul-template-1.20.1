@@ -40,8 +40,9 @@ public class ModItems {
     public static final Item BLAZE_SWORD = registerItem("blaze_sword",
             new BlazeSword(ToolMaterials.DIAMOND, 1, -2.4f,
                     new FabricItemSettings()));
-    public static final Item BOW = registerItem("bow",
-            new IncompetentBowClass(new FabricItemSettings()));
+    public static final Item BROADSWORD = registerItem("broadsword",
+            new Broadsword(ToolMaterials.DIAMOND, 2, -2.4f,
+                    new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 

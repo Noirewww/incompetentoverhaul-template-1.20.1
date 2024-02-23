@@ -1,7 +1,9 @@
 package incom.overhaul.item;
 
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
@@ -25,7 +27,21 @@ public class BlazeSword extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.setOnFireFor(2);
+        stack.addEnchantment(Enchantments.FIRE_ASPECT, 1);
+        //target.setOnFireFor(2);
         return true;
     }
+
+    @Override
+    public void onCraft(ItemStack stack, World world, PlayerEntity player) {
+        stack.addEnchantment(Enchantments.FIRE_ASPECT,1);
+        super.onCraft(stack, world, player);
+    }
+
+//    @Override
+//    public ItemStack getDefaultStack() {
+//        ItemStack stack = new ItemStack(this);
+//        stack.addEnchantment(Enchantments.FIRE_ASPECT,1);
+//        return stack;
+//    }
 }

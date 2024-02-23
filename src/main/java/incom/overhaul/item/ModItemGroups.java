@@ -47,5 +47,6 @@ public class ModItemGroups {
                     entries.add(ModItems.BOW);
                     entries.add(ModItems.BLAZE_SWORD);
                     entries.add(ModItems.HARVESTER);
+                    entries.add(ModItems.BROADSWORD);
                     }).build());
 }

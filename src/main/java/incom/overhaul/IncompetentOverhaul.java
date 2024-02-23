@@ -1,6 +1,7 @@
 package incom.overhaul;
 
 import incom.overhaul.block.ModBlocks;
+import incom.overhaul.enchantment.ModEnchantment;
 import incom.overhaul.item.ModItemGroups;
 import incom.overhaul.item.ModItems;
 import incom.overhaul.item.ModPotions;
@@ -21,5 +22,7 @@ public class IncompetentOverhaul implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModPotions.registerPotionsRecipes();
+
+		ModEnchantment.registerModEnchantments();
 	}
 }
