@@ -44,7 +44,6 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.arbitrarium"))
                     .icon(() -> new ItemStack(ModItems.SCYTHE)).entries((displayContext, entries) -> {
                     entries.add(ModItems.SCYTHE);
-                    entries.add(ModItems.BOW);
                     entries.add(ModItems.BLAZE_SWORD);
                     entries.add(ModItems.HARVESTER);
                     entries.add(ModItems.BROADSWORD);
